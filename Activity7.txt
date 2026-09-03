@@ -1,0 +1,27 @@
+#assignment operators
+total = 0
+
+
+n0 = eval(input("Input a number to add-->"))
+
+total += n0
+
+
+n1 = eval(input("Input a number to add-->"))
+
+total += n1
+
+n2 = eval(input("Input a number to multiply -->")) 
+
+total *= n2
+
+n3 = eval(input("Input a number to subtract -->"))
+
+total -= n3
+
+n4 = eval(input("Input a number to divide -->"))
+
+total /= n4
+
+print("Total is -->", total)
+print(type(total))

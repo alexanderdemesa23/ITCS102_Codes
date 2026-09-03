@@ -1,9 +1,9 @@
+name =input("What is your name -->")
+print("Your name is -->",name)
 
-#Acticity 6
-#Dynamic
+x = eval(input("Input the total number -->"))
 
-Name = input("Enter your Name : ")
-Age = input("Your Age :")
+sum = x + 8
 
-print ("Hello",Name,"How are you today?")
-print ("you are",Age,"years old now")
+print("Total =", sum)
+print(type(x))
