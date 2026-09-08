@@ -1,0 +1,7 @@
+x = 7
+y = 10
+
+username = 'yasuoqwer'
+password = 'sanderford23'
+
+print(not( x >= y or username == 'yasuoqwer' and password != 'Sanderford23 '))
